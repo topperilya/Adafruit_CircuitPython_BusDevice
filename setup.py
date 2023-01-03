@@ -24,8 +24,8 @@ with open(path.join(here, "README.rst"), encoding="utf-8") as f:
 
 setup(
     name="adafruit-circuitpython-busdevice",
-    use_scm_version=True,
-    setup_requires=["setuptools_scm"],
+    #use_scm_version=True,
+    #setup_requires=["setuptools_scm"],
     description="CircuitPython bus device classes to manage bus sharing.",
     long_description=long_description,
     long_description_content_type="text/x-rst",
